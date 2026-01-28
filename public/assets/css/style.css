@@ -1,8 +1,0 @@
-.menu {
-    list-style: none; /*remove as bolinhas */
-    display: flex; /*deixa os links lado a lado, na horizontal */
-    justify-content: center;
-    gap: 30px; /* espaço entre os links */
-    margin: 0;
-    padding: 0;
-}   

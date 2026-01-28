@@ -1,0 +1,37 @@
+.menu {
+    list-style: none; /*remove as bolinhas */
+    display: flex; /*deixa os links lado a lado, na horizontal */
+    justify-content: center;
+    gap: 30px; /* espaço entre os links */
+    margin: 0;
+    padding: 0;
+}   
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position:relative;
+    gap:calc(24px);
+}
+
+.container-botao .button:Word {
+     background-color: aqua;
+}
+.container-botao .button:PDF {
+     background-color: aqua;
+}
+
+
+button {
+    background-color: aliceblue;
+    color: black;
+    padding: 12px 24px ;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px ;
+    cursor: pointer;
+
+
+}
